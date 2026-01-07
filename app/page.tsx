@@ -153,6 +153,34 @@ export default function Dashboard() {
           </div>
         </div>
 
+        {/* Navigation */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <Link
+            href="/hazards"
+            className="px-4 py-3 bg-white rounded-lg shadow hover:shadow-md transition text-center font-medium text-gray-700 hover:text-blue-600"
+          >
+            Hazards
+          </Link>
+          <Link
+            href="/requirements"
+            className="px-4 py-3 bg-white rounded-lg shadow hover:shadow-md transition text-center font-medium text-gray-700 hover:text-blue-600"
+          >
+            Requirements
+          </Link>
+          <Link
+            href="/tests"
+            className="px-4 py-3 bg-white rounded-lg shadow hover:shadow-md transition text-center font-medium text-gray-700 hover:text-blue-600"
+          >
+            Tests
+          </Link>
+          <Link
+            href="/status-report"
+            className="px-4 py-3 bg-white rounded-lg shadow hover:shadow-md transition text-center font-medium text-gray-700 hover:text-blue-600"
+          >
+            Status Report
+          </Link>
+        </div>
+
         {/* Actions */}
         <div className="flex gap-4">
           <Link
